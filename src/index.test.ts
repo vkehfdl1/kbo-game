@@ -43,6 +43,9 @@ test("getGame should return array of games for valid date", async () => {
 
 	if (result && result.length > 0) {
 		const game = result[0];
+		if (!game) {
+			throw new Error("Game is undefined");
+		}
 		expect(game.id).toBe("20240919HHSS0");
 		expect(game.homeTeam).toBe("두산");
 		expect(game.awayTeam).toBe("한화");
