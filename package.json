@@ -2,7 +2,7 @@
   "name": "kbo-game",
   "type": "module",
   "description": "KBO 야구 경기 정보를 가져오는 npm 라이브러리입니다",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {

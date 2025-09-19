@@ -3,8 +3,8 @@
 export type GameStatus =
 	| "SCHEDULED"
 	| "IN_PROGRESS"
-	| "COMPLETED"
-	| "CANCELLED";
+	| "FINISHED"
+	| "CANCELED";
 
 export interface Game {
 	id: string;
@@ -100,9 +100,9 @@ const mapGameState = (data: KboGameData): GameStatus => {
 		case "2":
 			return "IN_PROGRESS";
 		case "3":
-			return "COMPLETED";
+			return "FINISHED";
 		case "4":
-			return "CANCELLED";
+			return "CANCELED";
 		default:
 			return "SCHEDULED"; // Default to scheduled if unknown
 	}
