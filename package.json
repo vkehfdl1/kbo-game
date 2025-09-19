@@ -1,15 +1,15 @@
 {
-  "name": "ts-npm-package-boilerplate-2024",
+  "name": "kbo-game",
   "type": "module",
-  "description": "TS NPM Package Boilerplate for 2024 ",
+  "description": "KBO 야구 경기 정보를 가져오는 npm 라이브러리입니다",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonorzel26/ts-npm-package-boilerplate-2024.git"
+    "url": "git+https://github.com/vkehfdl1/kbo-game.git"
   },
-  "homepage": "https://github.com/simonorzel26/ts-npm-package-boilerplate-2024",
+  "homepage": "https://github.com/vkehfdl1/kbo-game",
   "files": [
     "dist/**/*"
   ],
@@ -31,6 +31,6 @@
     "vitest": "^3.2.4"
   },
   "bugs": {
-    "url": "https://github.com/simonorzel26/ts-npm-package-boilerplate-2024/issues"
+    "url": "https://github.com/vkehfdl1/kbo-game/issues"
   }
 }
